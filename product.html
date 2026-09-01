@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MobiXa - Products</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                Mobi<span>Xa</span>
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="">
+                    Home
+                </a>
+
+                <a href="" class="active">
+                    Products
+                </a>
+
+                <a href="" class="cart-link">
+                    Cart
+                    <span id="cartCount">0</span>
+                </a>
+
+                <a href="">
+                    Login
+                </a>
+
+                <a href="" class="register-btn">
+                    Register
+                </a>
+
+                <button
+                    id="themeToggle"
+                    class="theme-btn"
+                    type="button">
+                    ☾
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="products-page">
+
+        <div class="container">
+
+            <!-- PAGE TITLE -->
+
+            <div class="page-title">
+
+                <h1>Our Products</h1>
+
+            </div>
+
+
+            <!-- ================= SEARCH ================= -->
+
+            <div class="search-area">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search accessories..."
+                    autocomplete="off">
+
+                <button
+                    id="searchButton"
+                    type="button">
+                    Search
+                </button>
+
+            </div>
+
+            <!-- ================= SORT BAR ================= -->
+
+            <div class="sort-bar">
+
+    <label for="sortSelect">Sort:</label>
+
+    <select id="sortSelect">
+        <option value="default">Featured</option>
+        <option value="price-low">Price: Low → High</option>
+        <option value="price-high">Price: High → Low</option>
+        <option value="name-az">Name: A → Z</option>
+        <option value="name-za">Name: Z → A</option>
+    </select>
+
+    </div>
+
+
+            <!-- ================= CATEGORIES ================= -->
+
+            <div class="categories">
+
+                <button
+                    class="category active"
+                    data-category="All">
+                    All
+                </button>
+
+                <button
+                    class="category"
+                    data-category="Cables">
+                    Cables
+                </button>
+
+                <button
+                    class="category"
+                    data-category="Chargers">
+                    Chargers
+                </button>
+
+                <button
+                    class="category"
+                    data-category="Earbuds">
+                    Earbuds
+                </button>
+
+                <button
+                    class="category"
+                    data-category="Phone Cases">
+                    Phone Cases
+                </button>
+
+                <button
+                    class="category"
+                    data-category="Phone Holders">
+                    Phone Holders
+                </button>
+
+                <button
+                    class="category"
+                    data-category="Power Banks">
+                    Power Banks
+                </button>
+
+                <button
+                    class="category"
+                    data-category="Screen Protectors">
+                    Screen Protectors
+                </button>
+
+            </div>
+
+
+            <!-- ================= PRODUCTS ================= -->
+
+            <div
+                class="product-grid"
+                id="productGrid">
+
+
+                <!-- PRODUCT 1 -->
+
+                <article
+                    class="product-card"
+                    data-category="Earbuds"
+                    data-name="A9 Pro Earbuds TWS">
+
+                    <div class="product-image">
+
+                        <img
+                            src="img/product-1.jpg"
+                            alt="A9 Pro Earbuds">
+
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Earbuds
+                        </span>
+
+                        <h2>
+                            A9 Pro Earbuds TWS Airpods with Touch LCD Display ANC ENC Noise Cancelling Wireless Gaming Earphones
+                        </h2>
+
+                        <div class="price">
+                            Rs. 2,500.00
+                        </div>
+
+                        <p>
+                            Experience immersive audio with the A9 Pro Earbuds,
+                            featuring advanced noise cancellation and wireless
+                            Bluetooth connectivity.
+                        </p>
+
+                        <a
+                            href="product-details.html"
+                            class="view-product">
+                            View Product
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+
+                <article
+                    class="product-card"
+                    data-category="Earbuds"
+                    data-name="AirPods Pro 2nd Gen">
+
+                    <div class="product-image">
+
+                        <img
+                            src="img/product-2.webp"
+                            alt="AirPods Pro">
+
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Earbuds
+                        </span>
+
+                        <h2>
+                            AirPods Pro 2nd Gen Premium Wireless Bluetooth Earbuds A Grade High Quality
+                        </h2>
+
+                        <div class="price">
+                            Rs. 5,000.00
+                        </div>
+
+                        <p>
+                            Premium wireless earbuds with excellent sound
+                            quality, comfortable design and powerful battery.
+                        </p>
+
+                        <a
+                            href=""
+                            class="view-product">
+                            View Product
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+
+                <article
+                    class="product-card"
+                    data-category="Earbuds"
+                    data-name="M10 Bluetooth Earbuds">
+
+                    <div class="product-image">
+
+                        <img
+                            src="img/product-3.jpg"
+                            alt="M10 Bluetooth Earbuds">
+
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Earbuds
+                        </span>
+
+                        <h2>
+                            M10 Bluetooth Earbuds TWS Mini Earphone with LED Digital Display Gaming Touch
+                        </h2>
+
+                        <div class="price">
+                            Rs. 3,500.00
+                        </div>
+
+                        <p>
+                            Stylish M10 wireless earbuds with LED digital
+                            display, touch controls and Bluetooth connectivity.
+                        </p>
+
+                        <a
+                            href=""
+                            class="view-product">
+                            View Product
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- PRODUCT 4 -->
+
+                <article
+                    class="product-card"
+                    data-category="Phone Cases"
+                    data-name="Luxury Leather Deer Phone Case for Google Pixel 7 7A 8 8A 9 9A 10 Pro XL For Magsafe Magnetic Wireless Charging Back Cover">
+
+                    <div class="product-image">
+
+                        <img
+                            src="img/product-4.jpg"
+                            alt="Luxury Leather Deer Phone Case for Google Pixel 7 7A 8 8A 9 9A 10 Pro XL For Magsafe Magnetic Wireless Charging Back Cover">
+
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            phone Cases
+                        </span>
+
+                        <h2>
+                          Luxury Leather Deer Phone Case for Google Pixel 7 7A 8 8A 9 9A 10 Pro XL For Magsafe Magnetic Wireless Charging Back Cover
+                        </h2>
+
+                        <div class="price">
+                            Rs. 2,500.00
+                        </div>
+
+                        <p>
+                            Luxury Leather Deer Phone Case for Google Pixel 7 7A 8 8A 9 9A 10 Pro XL For Magsafe Magnetic Wireless Charging Back Cover
+1.New Brand Luxury Fashion Phone back Cover Case
+2.With high quality and low price
+                        </p>
+
+                        <a
+                            href=""
+                            class="view-product">
+                            View Product
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            <!-- NO RESULTS -->
+
+            <div
+                id="noResults"
+                class="no-results">
+
+                <h2>No products found</h2>
+
+                <p>
+                    Try another search or category.
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+   
+
+</div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+                <h3>MobiXa</h3>
+
+                <p>
+                    Your trusted mobile accessories store.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Cart</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+
+                <p>
+                    Email: mobixaPage@gmail.com
+                </p>
+
+                <p>
+                    Phone: +94 77 812 3645
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 MobiXa. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="product.js"></script>
+
+</body>
+
+</html>

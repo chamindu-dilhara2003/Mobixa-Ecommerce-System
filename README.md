@@ -1,13 +1,5 @@
 # 📱 Mobixa-Ecommerce-System
 
-<p align="center">
-  <img src="https://shields.io" alt="PHP" />
-  <img src="https://shields.io" alt="MySQL" />
-  <img src="https://shields.io" alt="HTML5" />
-  <img src="https://shields.io" alt="CSS3" />
-  <img src="https://shields.io" alt="JavaScript" />
-</p>
-
 An elegant, fully-featured **Online Mobile Accessories Selling System** built to provide a seamless shopping experience for customers and a robust management system for store administrators.
 
 ---
